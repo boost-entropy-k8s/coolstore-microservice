@@ -1,6 +1,6 @@
 version: "1"
 rules:
   - base: stable-ocp-3.11
-    upstream: null:stable-ocp-3.11
+    upstream: jbossdemocentral:stable-ocp-3.11
     mergeMethod: merge
     mergeUnstable: true
