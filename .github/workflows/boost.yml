@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - stable-ocp-3.11
-  pull_request:
-    branches:
-      - stable-ocp-3.11
-    types:
-      - opened
-      - synchronize
 jobs:
   boost-native:
     name: Native Scanner
