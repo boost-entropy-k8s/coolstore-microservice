@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - stable-ocp-3.11
-
 jobs:
   boost-native:
     name: Native Scanner
